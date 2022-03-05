@@ -5,6 +5,7 @@
 }
 
 body{
+    background-color: #343a40;
     color: whitesmoke;
     font-family: Helvetica, Arial, sans-serif;
 }
@@ -48,6 +49,7 @@ header nav ul li a{
     font-size: 1.55vw;
 }
 
+
 .hero {
  padding: 200px;
 }
@@ -62,23 +64,110 @@ header nav ul li a{
 }
 
 .about-me{
-    background-color: #343a40;
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
+
 .colored-font{
     color: rgb(123,223,242);
 }
 
 .flex-row{
     display: inline;
+    padding: 50px;
 }
 
-#section-name{
+.section-name{
     padding: 50px;
+    border-right: solid 3px;
 }
 
 .intro {
     padding:0 200px;
     display: inline-flex;
+}
+
+.about-me {
+  border-bottom: 1px solid;
+  padding-bottom:10px;
+}
+
+.projects {
+    border-bottom: 1px solid;
+    padding-bottom: 100px;
+}
+
+#content{
+    display: flex;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+
+
+#atm {
+    background-image: url(../images/bank2.jpg);
+    width: 45%;
+    height: 380px;
+    background-position: center;
+    margin: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+}
+
+#calculator {
+    background-image: url(../images/calculator.png);
+    width: 45%;
+    height: 380px;
+    background-position: center;
+    margin: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+}
+
+#password{
+    background-image: url(../images/Strong-Password-Generator.webp);
+    width: 93%;
+    height: 280px;
+    background-position: center;
+    margin: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#runbuddy{
+    background-image: url(../images/runbuddy.jpg);
+    width: 93%;
+    height: 280px;
+    background-position: center;
+    margin: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.position-right{
+    float: right;
+    color: whitesmoke;
+}
+
+.contacts{
+    padding: 30px 15px 30px 25px;
+    justify-content: center;
+    display: flex;
+}
+
+.contacts nav a{
+    display: inline-block;
+    padding: 5px 100px;
+    font-size: 1vw;
+}
+
+.contacts h1 {
+    padding-left: 70px;
+    padding-right: 50px;
+    border-right: solid 3px;
 }
