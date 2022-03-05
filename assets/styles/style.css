@@ -203,3 +203,126 @@ header nav ul li a{
     padding-right: 50px;
     border-right: solid 3px;
 }
+
+@media screen and (max-width: 980px) {
+
+    header {
+        padding: 10px 130px 20px 25px;
+        justify-content: space-between;
+        display: flex;
+    }
+
+    #picture {
+        background-image: url(../images/profilepic.jpg);
+        width: 20%;
+        height: 180px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border: solid 2px;
+    }
+    
+
+    #introduction h2 {
+        padding-right: 15px;
+        padding-top: 60px;
+        padding-left: 0px;
+        font-size: 15px;
+        flex-wrap: wrap;
+    }
+
+    .flex-row {
+        display: -webkit-inline-box;
+        padding: 50px;
+        padding-left: 10px;
+    }
+
+    .section-name {
+        padding: 50px;
+        padding-right: 20px;
+        border-right: solid 3px;
+    }
+
+    .section-project {
+        padding: 470px 25px;
+        border-right: solid 3px;
+    }
+
+    #content {
+        display: flex;
+        padding: 50px;
+        padding-left: 5px;
+        flex-wrap: wrap;
+    }
+    
+    #calculator {
+        background-image: url(../images/calculator.png);
+        width: 40%;
+        height: 380px;
+        background-position: center;
+        margin: 10px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: whitesmoke;
+    }
+
+    #atm {
+        background-image: url(../images/bank2.jpg);
+        width: 40%;
+        height: 380px;
+        background-position: center;
+        margin: 10px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: black;
+    }
+
+
+    #password {
+        background-image: url(../images/Strong-Password-Generator.webp);
+        width: 83%;
+        height: 280px;
+        background-position: center;
+        margin: 10px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #runbuddy {
+        background-image: url(../images/runbuddy.jpg);
+        width: 82%;
+        height: 280px;
+        background-position: center;
+        margin: 10px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .contacts h1 {
+        padding-left: 0px;
+        padding-right: 50px;
+        border-right: solid 3px;
+    }
+
+    .contacts {
+        padding: 30px 40px;
+        /* justify-content: center; */
+        display: flex;
+    }
+
+    .contacts nav a {
+        display: inline-block;
+        padding: 5px 50px;
+        font-size: 1.5vw;
+        color: whitesmoke;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+}
+
+@media screen and (max-width: 575px) {
+    
+}
