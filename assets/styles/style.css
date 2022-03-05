@@ -115,7 +115,7 @@ header nav ul li a{
 
 #picture{
     background-image: url(../images/profilepic.jpg);
-    width: 50%;
+    width: 38%;
     height: 300px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -124,7 +124,7 @@ header nav ul li a{
 }
 
 #picture:hover{
-    width: 70%;
+    width: 50%;
     height: 400px;
 }
 
@@ -178,6 +178,7 @@ header nav ul li a{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 
 .position-right{
     float: right;
