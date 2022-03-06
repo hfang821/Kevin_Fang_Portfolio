@@ -21,6 +21,9 @@ Windows Users:
 MacOS Users:
 Coming Soon!
 
+## Link to the Deployed Application:
+https://hfang821.github.io/Kevin_Fang_Portfolio/
+
 ---
 
 ## Credit
