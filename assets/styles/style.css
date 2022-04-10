@@ -256,7 +256,7 @@ header nav ul li a{
     }
     
     #calculator {
-        background-image: url(../images/calculator.png);
+        background-image: url(../images/latest-pitch.png);
         width: 40%;
         height: 380px;
         background-position: center;
@@ -410,7 +410,7 @@ header nav ul li a {
 }
 
 #calculator {
-    background-image: url(../images/calculator.png);
+    background-image: url(../images/latest-pitch.png);
     width: 90%;
     height: 200px;
     background-position: center;
