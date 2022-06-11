@@ -137,14 +137,15 @@ header nav ul li a{
 
 
 #atm {
-    background-image: url(../images/bank2.jpg);
+    background-image: url(../images/logo-picture.png);
     width: 45%;
     height: 380px;
-    background-position: center;
+    background-position: revert;
     margin: 10px;
     background-size: cover;
     background-repeat: no-repeat;
     color: black;
+    background-color: black;
 }
 
 #calculator {
@@ -267,14 +268,15 @@ header nav ul li a{
     }
 
     #atm {
-        background-image: url(../images/bank2.jpg);
+        background-image: url(../images/logo-picture.png);
         width: 40%;
         height: 380px;
-        background-position: center;
+        background-position: revert;
         margin: 10px;
         background-size: cover;
         background-repeat: no-repeat;
         color: black;
+        background-color: black;
     }
 
 
@@ -424,11 +426,12 @@ header nav ul li a {
     background-image: url(../images/logo-picture.png);
     width: 90%;
     height: 200px;
-    background-position: center;
+    background-position: revert;
     margin: 10px;
     background-size: cover;
     background-repeat: no-repeat;
     color: black;
+    background-color: black;
 }
 
 #password {
